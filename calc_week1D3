@@ -1,0 +1,28 @@
+function Gradecalc(score)
+{
+    var score;
+    switch(true)
+    {
+        case (score>90):
+        console.log("grade A");
+        break;
+        
+        case (score>80):
+        console.log("grade B");
+        break;
+            
+        case(score>70):
+        console.log("grade c");
+        break;
+
+        case(score>60):
+        console.log("grade D");
+        break;
+
+        
+        default:
+            console.log("Failed ");
+    }
+}
+Gradecalc(95);
+Gradecalc(85);
