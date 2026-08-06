@@ -1,0 +1,11 @@
+let userName ="gowri";
+let organization ="abc ltd";
+let contactNumber=999998989;
+let knowsAtomation =true;
+let usesPlaywright;
+
+console.log(typeof(userName));
+console.log(typeof(organization));
+console.log(typeof(contactNumber));
+console.log(typeof(knowsAtomation));
+console.log(typeof(usesPlaywright,usesPlaywright));
