@@ -1,0 +1,17 @@
+
+
+
+
+function splitword(myarr)
+{
+
+var arr=myarr.split(" ");
+console.log("splitted array word",arr);
+console.log("array word with index:",arr[4]);
+var myarr1=arr[4].length;
+return myarr1;
+//console.log(myarr1);
+
+}
+console.log("Length of the array ",splitword("fly me to the moon"));
+;
