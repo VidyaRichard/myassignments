@@ -1,0 +1,12 @@
+
+function isanagram(str1,str2)
+{
+console.log(str1.replace(/\s/g, "").toLowerCase());
+console.log(str2.replace(/\s/g, "").toLowerCase());
+return str1.split("").sort().join("") === str2.split("").sort().join("");
+
+}
+isanagram("is anagram string ","SILENT","LISTEN");
+
+
+
