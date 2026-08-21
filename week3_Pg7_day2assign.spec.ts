@@ -7,4 +7,3 @@ await page.locator('input[id="Login"]').click()
 await page.locator('#password').fill('1235');
 await page.locator('input[id="Login"]').click()
 await page.waitForTimeout(2000);
-});
